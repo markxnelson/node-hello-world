@@ -27,6 +27,12 @@ build:
 test-unit:
   steps:
     - script:
+      name: ls
+      code: |
+          pwd
+          ls -la
+          ls -la /pipeline/source/node_modules/.bin
+    - script:
       name: install dependencies
       code: yarn --check-files
     - script:
