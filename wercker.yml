@@ -28,7 +28,7 @@ test-unit:
   steps:
     - script:
       name: install dependencies
-      code: yarn
+      code: yarn --check-files
     - script:
       name: ls
       code: |
