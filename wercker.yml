@@ -26,9 +26,9 @@ build:
 
 test-unit:
   steps:
-#    - script:
-#      name: install dependencies
-#      code: yarn
+    - script:
+      name: install dependencies
+      code: yarn
     - script:
       name: ls
       code: |
