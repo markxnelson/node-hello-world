@@ -8,7 +8,7 @@
   "license": "Apache",
   "private": false,
   "scripts": {
-    "test": "which jest; jest --verbose --debug --no-cache --showConfig",
+    "test": "which jest; jest --verbose --debug --no-cache --showConfig; echo $?",
     "test2": "which jest; jest --bad-input; echo $?"
   },
   "dependencies": {
