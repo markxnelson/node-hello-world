@@ -1,0 +1,36 @@
+box: node
+
+build:
+  steps:
+    - script:
+      name: install dependencies
+      code: yarn
+    - script:
+      name: ls
+      code: |
+        pwd
+        ls -l
+    - script:
+      name: whoami
+      code: whoami
+    - script:
+      name: test-unit
+      code: yarn test
+
+test-unit:
+  steps:
+    - script:
+      name: install dependencies
+      code: yarn
+    - script:
+      name: ls
+      code: |
+          pwd
+          ls -l
+    - script:
+      name: whoami
+      code: whoami
+    - script:
+      name: test-unit
+      code: yarn test
+

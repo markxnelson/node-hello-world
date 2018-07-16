@@ -7,7 +7,7 @@
   "author": "John Wells <jwells131313@gmail.com>",
   "license": "Apache",
   "private": false,
-  "dependencies": {
-    "test": "^0.6.0"
+  "scripts": {
+    "test": "scripts/run"
   }
 }
