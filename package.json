@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "test": "jest --verbose --debug --no-cache --showConfig",
-    "test2": "echo GoEAGLES"
+    "test2": "sleep 10; echo GoEAGLES"
   },
   "dependencies": {
     "jest": "^23.4.1"
