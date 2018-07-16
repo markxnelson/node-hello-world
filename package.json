@@ -8,7 +8,7 @@
   "license": "Apache",
   "private": false,
   "scripts": {
-    "test": "scripts/run"
+    "test": "jest --verbose"
   },
   "dependencies": {
     "jest": "^23.4.1"
