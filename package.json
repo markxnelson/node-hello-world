@@ -8,8 +8,8 @@
   "license": "Apache",
   "private": false,
   "scripts": {
-    "test": "jest --verbose --debug --no-cache --showConfig",
-    "test2": "jest --bad-input; echo $?"
+    "test": "which jest; jest --verbose --debug --no-cache --showConfig",
+    "test2": "which jest; jest --bad-input; echo $?"
   },
   "dependencies": {
     "jest": "^23.4.1"
