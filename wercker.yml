@@ -10,7 +10,7 @@ build:
       code: |
         pwd
         ls -la
-        ls -l node_modules
+        ls -la /pipeline/source/node_modules/.bin
     - script:
       name: whoami
       code: whoami
@@ -34,7 +34,7 @@ test-unit:
       code: |
           pwd
           ls -la
-          ls -l node_modules
+          ls -la /pipeline/source/node_modules/.bin
     - script:
       name: whoami
       code: whoami
