@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "test": "jest --verbose --debug --no-cache --showConfig",
-    "test2": "jest --verbose --debug --no-cache --showConfig"
+    "test2": "jest --not-a-thing"
   },
   "dependencies": {
     "jest": "^23.4.1"
