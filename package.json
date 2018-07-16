@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "test": "jest --verbose --debug --no-cache --showConfig",
-    "test2": "sleep 5; jest --verbose --debug --no-cache --showConfig; echo $?; sleep 5"
+    "test2": "jest --bad-input; echo $?"
   },
   "dependencies": {
     "jest": "^23.4.1"
