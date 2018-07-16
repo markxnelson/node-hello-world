@@ -9,5 +9,8 @@
   "private": false,
   "scripts": {
     "test": "scripts/run"
+  },
+  "dependencies": {
+    "jest": "^23.4.1"
   }
 }
