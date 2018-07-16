@@ -1,0 +1,13 @@
+{
+  "name": "node-hello-world",
+  "version": "1.0.0",
+  "description": "Hello World to help debug an issue with wercker",
+  "main": "index.js",
+  "repository": "git@github.com:jwells131313/node-hello-world.git",
+  "author": "John Wells <jwells131313@gmail.com>",
+  "license": "Apache",
+  "private": false,
+  "dependencies": {
+    "test": "^0.6.0"
+  }
+}
