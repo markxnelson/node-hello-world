@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "test": "which jest; jest --verbose --debug --no-cache --showConfig; echo $?",
-    "test2": "which jest; jest --bad-input; echo $?"
+    "test2": "which jest; echo $?; which fu; echo $?; which echo; echo $?"
   },
   "dependencies": {
     "jest": "^23.4.1"
