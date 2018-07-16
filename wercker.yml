@@ -16,6 +16,9 @@ build:
     - script:
       name: test-unit
       code: yarn test
+    - script:
+      name: test-unit-duex
+      code: yarn test
 
 test-unit:
   steps:
